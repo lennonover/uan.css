@@ -1,0 +1,22 @@
+{
+  "name": "uan.css",
+  "version": "0.1",
+  "description": "统一浏览器效果，打造最佳实践 CSS Reset",
+  "main": "uan.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lennonover/uan.css.git"
+  },
+  "keywords": [
+    "reset"
+  ],
+  "author": "walei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lennonover/uan.css/issues"
+  },
+  "homepage": ""
+}
