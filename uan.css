@@ -15,6 +15,7 @@
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%; 
     -webkit-text-size-adjust: 100%; 
+    text-rendering: optimizeLegibility; /* 增强易读性 */
  }
 
  /**
@@ -25,3 +26,41 @@ article, aside, details, figcaption, figure, footer, header, menu, nav, section 
     margin: 0;
     padding: 0;
 }
+
+/**
+ * Helvetica Neue 最新版本Mac用户的最佳体
+ * Arial Win 下默认英文字体及 Mac 的替代英文字体
+ * 中文字体方面首选了平方
+ */
+body{
+    font:  14px/1.5 "Helvetica Neue", "Helvetica", "Arial", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+}
+
+/**
+ * 统一字体加重
+ */
+ b,
+ strong {
+    font-weight: bolder;
+ }
+
+ /**
+ * 去除默认边框 
+ */
+ img {
+    border: 0;
+ }
+
+/**
+ * 重设字体 表单元素不继承父级 font
+ */
+ button,
+ input,
+ optgroup,
+ select,
+ textarea {
+    font-family: sans-serif; 
+    font-size: 100%; 
+    line-height: 1.15; 
+    margin: 0; 
+ }
