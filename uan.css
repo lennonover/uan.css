@@ -128,7 +128,7 @@ input[type="submit"] {
     cursor: pointer; /* 2 */
 }
 
- /**
+/**
  * 重置按钮禁用时光标样式
  */
 button[disabled],
