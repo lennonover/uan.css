@@ -1,0 +1,58 @@
+
+
+/*
+ * 斜体扶正
+ */
+address,cite,em{
+    font-style:normal;
+}
+
+/**
+ * 去除浮动带来的影响
+ */
+ .fix:before,
+ .fix:after {
+     content: "";
+     display: table;
+ }
+ 
+ .fix:after {
+     clear: both;
+ }
+
+ /**
+ * 文本隐藏
+ */
+.uan-text-hide {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/**
+ * 文本强制不换行
+ */
+ .uan-text-nowrap {
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+/**
+ * 文本强制换行
+ */
+.uan-text-break {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+/**
+ * 文字溢出显示省略号
+ */
+.uan-text-ellipsis {
+    display: block;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}

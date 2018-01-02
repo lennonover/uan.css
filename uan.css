@@ -53,11 +53,10 @@ strong {
 img,iframe{
     border:0;
 }
-
 /**
  * 去掉列表前的标识, li会继承
  */
-ul, ol {
+ ul, ol {
     list-style-type: none;
     list-style-image: none;
 }
@@ -75,16 +74,8 @@ a:hover {
 a:active {
 	background-color: transparent; /* 2 */
 }
-
 /*
- * 斜体扶正
- */
-address,cite,dfn,em,var{
-    font-style:normal;
-}
-
-/*
- * 统一上标和下标 
+ * 
  */
 sub, sup {
     font-size: 75%;
