@@ -23,7 +23,7 @@
 
   辅助样式
     
-    - 去除浮动带来的影响 fix
+    - 去除浮动带来的影响 clearfix
     - 文本影藏 uan-text-hide
     - 文本强制不换行 uan-text-nowrap
     - 文本强制换行 an-text-break
